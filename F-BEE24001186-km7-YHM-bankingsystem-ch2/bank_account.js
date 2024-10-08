@@ -30,8 +30,6 @@ class Bank {
       });
     });
   }
-
-
 }
 
 // Menangani event 'close' untuk menampilkan custom message
