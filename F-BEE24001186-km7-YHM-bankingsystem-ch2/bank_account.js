@@ -59,6 +59,10 @@ class Bank {
       });
     });
   }
+
+  getBalance() {
+    return `Saldo anda saat ini adalah ${this.saldo}`;
+  }
 }
 
 // Menangani event 'close' untuk menampilkan custom message
